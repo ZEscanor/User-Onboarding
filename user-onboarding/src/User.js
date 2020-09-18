@@ -5,7 +5,7 @@ import React from 'react';
 export default function UserZ (props){
 
     const ourUser = props.ourUser
-   console.log("OUR USER",ourUser)
+   //console.log("OUR USER",ourUser)
    return(
     <div className="hi">
     <h1>{ourUser.name}</h1>
